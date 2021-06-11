@@ -24,7 +24,7 @@ In this article we will demonstrate Ubuntu 20.04 LTS server installation steps (
 
 Let us assume I have a server which has two hard disks ( I TB each ) on which we will be installing Ubuntu 20.04 LTS server and create software RAID 1.
 
-Steps: 
+Steps:
 
 1. [Download the ISO](#step-1-download-the-iso-file)  
 2. [Create a bootable drive](#step-2-create-a-bootable-drive)  
@@ -170,17 +170,17 @@ Once the system boots up, we will get the following screen.
 4. Let us add at least one GPT partition to it.
 
     ![Screenshot of raid setup: Step 4-1](screenshot_of_raid_setup_step_4-1.png)  
-    **Figure 19.** *Screenshot of raid setup: Step 4-1.*
+    **Figure 19.** _Screenshot of raid setup: Step 4-1._
 
-    * Optional: If you want the ability to swap, create a swap partition on the RAID device. Set the size to the same as your RAM, or half if you have 64 GB or more RAM.
+    <!-- * Optional: If you want the ability to swap, create a swap partition on the RAID device. Set the size to the same as your RAM, or half if you have 64 GB or more RAM. -->
 
-        ![Screenshot of raid setup: Step 4-2](images/screenshot_of_raid_setup_step_4-2.png)  
-        **Figure 20.** _Screenshot of raid setup: Step 4-2._
+        <!-- ![Screenshot of raid setup: Step 4-2](images/screenshot_of_raid_setup_step_4-2.png)   -->
+        <!-- **Figure 20.** _Screenshot of raid setup: Step 4-2._ -->
 
-   * Note new swap partition created on RAID1.
+   <!-- * Note new swap partition created on RAID1. -->
 
-        ![Screenshot of raid setup: Step 4-3](images/screenshot_of_raid_setup_step_4-3.png)  
-        **Figure 21.** _Screenshot of raid setup: Step 4-3._
+        <!-- ![Screenshot of raid setup: Step 4-3](images/screenshot_of_raid_setup_step_4-3.png)   -->
+        <!-- **Figure 21.** _Screenshot of raid setup: Step 4-3._ -->
 
 5. Create a partition for Ubuntu on the RAID device. You can use the remaining space if you want to. Format it as ext4 and mount it at /.
 
@@ -191,7 +191,7 @@ Once the system boots up, we will get the following screen.
     **Figure 23.** _Screenshot of raid setup: Step 5-2._
 
 6. All these mdX soft RAID partitions will now appear under USED DEVICES and you are ready to proceed with Ubuntu's installation.
-    
+
     * At the very bottom, you should now see "Done" enabled so hit it and proceed. What partitioning of disks when installing Ubuntu on software raid might look like. Save the changes and continue along with the installation.
 
         ![Screenshot of raid setup: Step 6](images/screenshot_of_raid_setup_step_6.png)  
@@ -438,4 +438,3 @@ Reference:
 [Ubuntu 20.04 LTS Server Installation Guide](https://www.linuxtechi.com/ubuntu-20-04-lts-server-installation-guide/)
 
 [Ubuntu 20.04 with software RAID1 and UEFI](https://alexskra.com/blog/ubuntu-20-04-with-software-raid1-and-uefi/)
-
