@@ -2,7 +2,7 @@
 
 Author : Vhuli Manukha
 
-Date : 24/05/2021
+Date : 11/06/2021
 
 ## Contents
 1. [Requirements](#requirements)
@@ -24,7 +24,7 @@ In this article we will demonstrate Ubuntu 20.04 LTS server installation steps (
 
 Let us assume I have a server which has two hard disks ( I TB each ) on which we will be installing Ubuntu 20.04 LTS server and create software RAID 1.
 
-Steps: 
+Steps:
 
 1. [Download the ISO](#step-1-download-the-iso-file)  
 2. [Create a bootable drive](#step-2-create-a-bootable-drive)  
@@ -191,7 +191,7 @@ Once the system boots up, we will get the following screen.
     **Figure 23.** _Screenshot of raid setup: Step 5-2._
 
 6. All these mdX soft RAID partitions will now appear under USED DEVICES and you are ready to proceed with Ubuntu's installation.
-    
+
     * At the very bottom, you should now see "Done" enabled so hit it and proceed. What partitioning of disks when installing Ubuntu on software raid might look like. Save the changes and continue along with the installation.
 
         ![Screenshot of raid setup: Step 6](images/screenshot_of_raid_setup_step_6.png)  
@@ -438,4 +438,3 @@ Reference:
 [Ubuntu 20.04 LTS Server Installation Guide](https://www.linuxtechi.com/ubuntu-20-04-lts-server-installation-guide/)
 
 [Ubuntu 20.04 with software RAID1 and UEFI](https://alexskra.com/blog/ubuntu-20-04-with-software-raid1-and-uefi/)
-
