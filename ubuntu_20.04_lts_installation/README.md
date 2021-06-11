@@ -172,15 +172,15 @@ Once the system boots up, we will get the following screen.
     ![Screenshot of raid setup: Step 4-1](screenshot_of_raid_setup_step_4-1.png)  
     **Figure 19.** _Screenshot of raid setup: Step 4-1._
 
-    <!-- * Optional: If you want the ability to swap, create a swap partition on the RAID device. Set the size to the same as your RAM, or half if you have 64 GB or more RAM. -->
+    <!--- * Optional: If you want the ability to swap, create a swap partition on the RAID device. Set the size to the same as your RAM, or half if you have 64 GB or more RAM.
 
-        <!-- ![Screenshot of raid setup: Step 4-2](images/screenshot_of_raid_setup_step_4-2.png)   -->
-        <!-- **Figure 20.** _Screenshot of raid setup: Step 4-2._ -->
+         ![Screenshot of raid setup: Step 4-2](images/screenshot_of_raid_setup_step_4-2.png)   
+        **Figure 20.** _Screenshot of raid setup: Step 4-2._
 
-   <!-- * Note new swap partition created on RAID1. -->
+    * Note new swap partition created on RAID1.
 
-        <!-- ![Screenshot of raid setup: Step 4-3](images/screenshot_of_raid_setup_step_4-3.png)   -->
-        <!-- **Figure 21.** _Screenshot of raid setup: Step 4-3._ -->
+         ![Screenshot of raid setup: Step 4-3](images/screenshot_of_raid_setup_step_4-3.png)  
+       **Figure 21.** _Screenshot of raid setup: Step 4-3._ --->
 
 5. Create a partition for Ubuntu on the RAID device. You can use the remaining space if you want to. Format it as ext4 and mount it at /.
 
